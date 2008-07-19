@@ -1,0 +1,10 @@
+19.07.2008 1.0.1:
+  - Anpassung der Lizenz GNU -> MIT
+  - JAR File Generierung
+
+06.09.1997 V1.00Beta3 (TS):
+  - Von den CONSTANT-Typen DOUBLE und LONG werden 2 Eintr"age benutzt
+  
+04.09.1997 V1.00Beta2 (TS):
+  - Zeilennummer Anzeigen
+  - Bei Branches die Sprungadresse mit Anzeigen

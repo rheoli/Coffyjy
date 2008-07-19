@@ -1,0 +1,27 @@
+
+                                  Coffyjy
+                         --------------------------
+                          D I S A S S  V 1.00Beta3
+                         --------------------------
+                         
+                         
+ Beschreibung:
+ -------------
+ Coffyjy DisAss generiert aus einem JavaByteCode-Classfile einen Jasmin
+ aehnlichen Assemblercode (mit wenigen Aenderungen sollte der 'Source' mit
+ Jasmin wieder in ByteCode compiliert werden).
+ 
+ Starten:
+ --------
+ Als erstes muss der CLASSPATH zum Coffyjy.zip-File richtig gesetzt werden
+ (Voraussetzung, dass ein Java-Console-Interpreter installiert ist):
+  - Unter UNIX (ksh, bash):
+    $ export CLASSPATH=$CLASSPATH:<der Path zu Coffyjy.zip>/Coffyjy.zip
+  
+  - Unter Windows 95 / Windows NT:
+    > set CLASSPATH=%CLASSPATH%;<der Path zu Coffyjy.zip>\Coffyjy.zip
+ 
+ Danach kann das Programm mit:
+   $ java Coffyjy.DisAssMain <Filename.class>
+ ausgerufen werden. Der disassemblierte Code wird danach in der datei
+ <Filename.disass> abgelegt.
